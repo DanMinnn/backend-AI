@@ -8,6 +8,7 @@ faiss-cpu
 pypdf
 python-dotenv
 torch 
+sentence-transformers
 #underthesea 
 #yake 
 #surprise 
