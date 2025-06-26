@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+faiss-cpu
+pypdf
+python-dotenv
+torch 
+underthesea 
+yake 
+surprise 
+psycopg2-binary 
+redis
