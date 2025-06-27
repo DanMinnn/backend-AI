@@ -7,7 +7,7 @@ langchain-huggingface
 faiss-cpu
 pypdf
 python-dotenv
-torch 
+torch-cpu
 sentence-transformers
 #underthesea 
 #yake 
