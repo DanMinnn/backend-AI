@@ -7,8 +7,11 @@ WORKDIR /app
 # Copy requirements first để tận dụng Docker layer caching
 COPY requirements.txt .
 
-RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --no-deps \
+    fastapi uvicorn python-dotenv pypdf \
+    && pip install --no-cache-dir \
+    langchain langchain-community langchain-groq langchain-huggingface \
+    faiss-cpu sentence-transformers
 
 COPY . .
 
